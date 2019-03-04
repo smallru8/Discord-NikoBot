@@ -29,7 +29,7 @@ public class SmallListener extends ListenerAdapter{
 			if(!msg.getAuthor().isBot()) {//Don't receive cmd from other bots
 			    CommandManager.cmdrecived(msg);
 			    ReplyManager.RMrecived(msg);
-			    PluginsManager.cmdrecived(event);
+			    
 			}
 			
 		}catch(Exception e) {

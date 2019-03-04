@@ -1,0 +1,13 @@
+Commands:
+/choose A B C ......
+/dice
+/help
+/info
+/ping
+/say something
+Admin commands:
+/sleep
+/wake
+/reboot
+/shutdown
+/setgame game

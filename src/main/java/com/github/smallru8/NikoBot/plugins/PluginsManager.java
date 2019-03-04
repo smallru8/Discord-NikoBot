@@ -78,12 +78,12 @@ public class PluginsManager {
 		
 	}
 	
-	public static void cmdrecived(MessageReceivedEvent event) {
+	/*public static void cmdrecived(MessageReceivedEvent event) {
 		
 		for(int i=0;i<jarUrl.size();i++) {
 			pluginsClass.elementAt(i).onEventOccur(event);///發送事件給所有class
 		}
 		
-	}
+	}*/
 	
 }

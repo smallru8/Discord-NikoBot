@@ -11,7 +11,7 @@ import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.entities.Game;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
-//1809v1
+//1903v1
 public class BotCore extends ListenerAdapter{
 
 	public static String botName = "";
@@ -29,7 +29,7 @@ public class BotCore extends ListenerAdapter{
 			botName = CfgReader.botName();
 			
 			try {
-				botAPI = jda.buildAsync();
+				botAPI = jda.build();
 				botAPI.getPresence().setGame(Game.playing(CfgReader.game()));
 			} catch (LoginException e) {
 				// TODO Auto-generated catch block

@@ -16,20 +16,40 @@
 
   <dependencies>
   	<dependency>
-      <groupId>net.dv8tion</groupId>
-      <artifactId>JDA</artifactId>
-      <version>3.7.1_385</version>
-    </dependency>
-    <dependency>
-      <groupId>com.sedmelluq</groupId>
-      <artifactId>lavaplayer</artifactId>
-      <version>1.2.61</version>
-    </dependency>
+    <groupId>net.dv8tion</groupId>
+    <artifactId>JDA</artifactId>
+    <version>3.8.3_460</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+	<dependency>
+	    <groupId>com.squareup.okhttp3</groupId>
+	    <artifactId>okhttp</artifactId>
+	    <version>3.13.1</version>
+	</dependency>
+  <!-- https://mvnrepository.com/artifact/com.neovisionaries/nv-websocket-client -->
+	<dependency>
+	    <groupId>com.neovisionaries</groupId>
+	    <artifactId>nv-websocket-client</artifactId>
+	    <version>1.6</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.2</version>
+		</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
   </dependencies>
+  <repositories>
+    <repository>
+      <id>jcenter</id>
+      <url>https://jcenter.bintray.com/</url>
+    </repository>
+  </repositories>
 </project>
