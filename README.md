@@ -2,7 +2,7 @@
 
 ####Support plugins. You can add new features or commands without recompile bot.
 
-*1903v1
+*1903v2
 	
 	-Upgrade JDA
 	-Adjust plugins interface
